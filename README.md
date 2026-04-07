@@ -34,17 +34,17 @@ Key Steps:
 Graph Data Model:
 
 Nodes:
-DrugProduct
-Ingredient
-Manufacturer
-Report
-AdverseEvent
+- DrugProduct
+- Ingredient
+- Manufacturer
+- Report
+- AdverseEvent
 
 Relationships:
-HAS_INGREDIENT → DrugProduct → Ingredient
-MANUFACTURED_BY → DrugProduct → Manufacturer
-MENTIONS_PRODUCT → Report → DrugProduct
-HAS_ADVERSE_EVENT → Report → AdverseEvent
+- HAS_INGREDIENT → DrugProduct → Ingredient
+- MANUFACTURED_BY → DrugProduct → Manufacturer
+- MENTIONS_PRODUCT → Report → DrugProduct
+- HAS_ADVERSE_EVENT → Report → AdverseEvent
 
 This structure enables efficient multi-hop traversal across pharmaceutical entities.
 
@@ -62,11 +62,11 @@ Some example queries enabled by this model:
 - Explore product-centered neighborhoods across ingredients, reports, and outcomes
 
 Repository Contents
-notebooks/     → Databricks notebooks (.ipynb)
-data/          → Sample datasets (truncated for size)
-exports/       → Neo4j-ready CSVs (nodes & relationships)
-images/        → Graph schema and example outputs
-Demo Video
+- notebooks/     → Databricks notebooks (.ipynb)
+- data/          → Sample datasets (truncated for size)
+- exports/       → Neo4j-ready CSVs (nodes & relationships)
+- images/        → Graph schema and example outputs
+- Demo Video
 
 A short demo walkthrough of the pipeline and graph exploration can be viewed here:
 
