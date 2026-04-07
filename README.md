@@ -63,7 +63,7 @@ Some example queries enabled by this model:
 
 Repository Contents
 - notebooks/     → Databricks notebooks (.ipynb)
-- data/          → Sample datasets (truncated for size)
+- datasets/          → Sample datasets (truncated for size)
 - exports/       → Neo4j-ready CSVs (nodes & relationships)
 - images/        → Graph schema and example outputs
 - Demo Video
