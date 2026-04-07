@@ -69,11 +69,10 @@ Repository Contents
 - Demo Video
 
 A short demo walkthrough of the pipeline and graph exploration can be viewed here:
-
-👉 [https://drive.google.com/file/d/1ZdUI-0dRA3F_Eyc7ihH16ChcfvExKJmU/view?usp=sharing]
+[https://drive.google.com/file/d/1ZdUI-0dRA3F_Eyc7ihH16ChcfvExKJmU/view?usp=sharing]
 
 Data can be sourced from openFDA:
-https://open.fda.gov/data/downloads/
+[https://open.fda.gov/data/downloads/]
 
 This project was built as a targeted demonstration of applying data engineering and graph modeling techniques to pharmaceutical data. 
 It reflects a strong interest in the intersection of healthcare and modern data infrastructure, and was designed specifically with AbbVie’s technical direction in mind.
