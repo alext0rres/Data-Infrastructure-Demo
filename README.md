@@ -18,14 +18,11 @@ These datasets were selected due to their highly relational nature, making them 
 Architecture:
 
 Raw JSON (openFDA)
-
-        
+        ↓
 Databricks (ETL + normalization)
-
-        
+        ↓
 Graph-ready node & relationship tables
-
-        
+        ↓
 Neo4j (graph modeling & traversal)
 
 Key Steps:
