@@ -19,15 +19,12 @@ Architecture:
 
 Raw JSON (openFDA)
 
-        ↓
         
 Databricks (ETL + normalization)
 
-        ↓
         
 Graph-ready node & relationship tables
 
-        ↓
         
 Neo4j (graph modeling & traversal)
 
