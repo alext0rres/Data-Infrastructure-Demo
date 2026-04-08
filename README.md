@@ -15,13 +15,17 @@ A semi-structured dataset of real-world adverse event reports linking drugs to r
 
 These datasets were selected due to their highly relational nature, making them well-suited for graph modeling.
 
-Architecture
+Architecture:
+
 Raw JSON (openFDA)
         ↓
+        
 Databricks (ETL + normalization)
         ↓
+        
 Graph-ready node & relationship tables
         ↓
+        
 Neo4j (graph modeling & traversal)
 
 Key Steps:
