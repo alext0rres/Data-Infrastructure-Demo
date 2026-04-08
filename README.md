@@ -17,13 +17,13 @@ These datasets were selected due to their highly relational nature, making them 
 
 Architecture:
 
-Raw JSON (openFDA)
-        ↓
-Databricks (ETL + normalization)
-        ↓
-Graph-ready node & relationship tables
-        ↓
-Neo4j (graph modeling & traversal)
+1. Raw JSON (openFDA)
+                ↓
+2. Databricks (ETL + normalization)
+                ↓
+3. Graph-ready node & relationship tables
+                ↓
+4. Neo4j (graph modeling & traversal)
 
 Key Steps:
 1. Ingest and flatten nested JSON data (FAERS)
