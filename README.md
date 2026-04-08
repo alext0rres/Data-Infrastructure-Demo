@@ -7,10 +7,10 @@ It was built specifically in the context of AbbVie’s efforts to modernize data
 The pipeline ingests and transforms public FDA datasets into a graph-ready format, enabling intuitive traversal across interconnected entities such as drug products, ingredients, manufacturers, adverse events, and reports.
 
 Data Sources:
-NDC (National Drug Code) – openFDA
+NDC (National Drug Code) –
 Contains structured metadata on drug products, including product names, active ingredients, manufacturers, and identifiers.
 
-FAERS (FDA Adverse Event Reporting System) – openFDA
+FAERS (FDA Adverse Event Reporting System) –
 A semi-structured dataset of real-world adverse event reports linking drugs to reported outcomes.
 
 These datasets were selected due to their highly relational nature, making them well-suited for graph modeling.
