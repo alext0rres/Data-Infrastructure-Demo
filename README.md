@@ -13,7 +13,7 @@ Contains structured metadata on drug products, including product names, active i
 FAERS (FDA Adverse Event Reporting System) –
 A semi-structured dataset of real-world adverse event reports linking drugs to reported outcomes.
 
-These datasets were selected due to their highly relational nature, making them well-suited for graph modeling.
+I selected these datasets due to their highly relational nature, making them well-suited for graph modeling.
 
 Architecture:
 
@@ -76,6 +76,6 @@ Data can be sourced from openFDA:
 [https://open.fda.gov/data/downloads/]
 
 This project was built as a targeted demonstration of applying data engineering and graph modeling techniques to pharmaceutical data. 
-It reflects a strong interest in the intersection of healthcare and modern data infrastructure, and was designed specifically with AbbVie’s technical direction in mind.
+It reflects my strong interest in the intersection of healthcare and modern data infrastructure, and was designed specifically with AbbVie’s technical direction in mind.
 
 If helpful, I would be happy to walk through the project in more detail or provide a live demo.
